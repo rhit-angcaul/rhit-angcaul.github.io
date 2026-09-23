@@ -1,2 +1,2 @@
-# caulfias.github.io
+# rhit-angcaul.github.io
 class assignment for website portfolio
