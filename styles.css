@@ -35,3 +35,18 @@ a:visited{
     float:left;
 }
 
+/* https://www.w3schools.com/csS/css3_flexbox.asp*/
+
+.resumeContain{
+    display:flex;
+    background-color:gray;
+
+}
+
+.resumeContain section{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
