@@ -1,3 +1,5 @@
+
+
 .center{
     display:block;
     margin:auto;
@@ -6,9 +8,12 @@
 
 #front_page_text{
     text-align:center;
+    font:white;
 }
 
 div{
-    font-size:20px;
+    font:white;
+    font-size:30px;
+    padding-bottom: 15px;
 }
 
