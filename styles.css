@@ -5,6 +5,8 @@
 }
 
 #front_page_text{
-    float:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
 }
 
