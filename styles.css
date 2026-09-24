@@ -11,9 +11,10 @@
     color:white;
 }
 
-div{
+body section nav div{
     color:white;
     font-size:30px;
     padding-bottom: 15px;
+    padding-left:15px;
 }
 
