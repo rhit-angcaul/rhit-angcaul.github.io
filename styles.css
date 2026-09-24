@@ -27,7 +27,11 @@ a:visited{
 }
 
 .date{
+    
+    color:gray;
+}
+
+.link{
     float:left;
-    padding-left:50px;
 }
 
