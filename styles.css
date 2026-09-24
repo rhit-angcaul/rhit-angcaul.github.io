@@ -8,11 +8,11 @@
 
 #front_page_text{
     text-align:center;
-    font:white;
+    color:white;
 }
 
 div{
-    font:white;
+    color:white;
     font-size:30px;
     padding-bottom: 15px;
 }
