@@ -26,3 +26,8 @@ a:visited{
     color:orange;
 }
 
+.date{
+    float:left;
+    padding-left:50px;
+}
+
