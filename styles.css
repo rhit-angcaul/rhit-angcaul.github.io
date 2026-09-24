@@ -45,8 +45,9 @@ a:visited{
 
 .resumeContain section{
     background-color: #f1f1f1;
+    text-align:left;
     margin: 10px;
-    padding: 10px;
+    /*padding: 10px;*/
     font-size: 15px;
 }
 
