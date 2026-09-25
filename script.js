@@ -7,6 +7,6 @@ let linkBtn = document.getElementsByName("linkBtn")
 
 // https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page
 
-resumeBtn.onclick = function(){
+resumeBtn.addEventListener("click", function(){
     window.location.href="https://rhit-angcaul.github.io/resume.html"
-}
+})
