@@ -2,18 +2,25 @@
 
 .center{
     display:block;
-    margin:auto;
-    width:30%;
+    margin-left:auto;
+    margin-right:50px;
+    width:40%;
+    float:right;
+
 }
 
 #front_page_text{
-    text-align:center;
+    text-align:right;
     color:white;
+    margin-right:50px;
+    
 }
+
+
 
 body section nav div{
     color:white;
-    font-size:30px;
+    font-size:50px;
     padding-bottom: 15px;
     padding-left:15px;
 }
@@ -28,34 +35,115 @@ a:visited{
 
 .date{
     
-    color:gray;
+    color:black;
+    background-color:rgb(240, 173, 111);
 }
 
-.link{
-    float:left;
+.heading{
+    background-color:rgb(247, 194, 145)
 }
+
+
 
 /* https://www.w3schools.com/csS/css3_flexbox.asp*/
 
 .resumeContain{
-    background-color: #dddddd;
+    display:block;
+    background-color: darkolivegreen;
     color: black;
-    width:30%;
-    float:left;
-    margin:1%;
+    
+    
+    width:70%;
+    margin-left:15%;
     text-align:center;
     
 
 }
 
-/*.resumeContain section{
-    background-color: #f1f1f1;
-    text-align:left;
-    margin: 10px;
-    /*padding: 10px;
-    font-size: 15px;
-}
-    */
 
+.link{
+    padding-left:2500px;
+}
+
+
+.resumeContain section{
+    background-color: rgb(238, 157, 81);
+    text-align:left;
+    margin: 20px;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+#back{
+    background-color: rgb(22, 37, 47);
+}
+
+#school:hover:before {
+    content:'';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("rhit-campus.jpg") no-repeat center;
+    background-size: cover;
+    
+}
+
+#skills:hover:before {
+    content:'';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("skills.jpg") no-repeat center;
+    background-size: cover;
+    
+}
+
+#work:hover:before {
+    content:'';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("work.jpg") no-repeat center;
+    background-size: cover;
+    
+}
+
+#volun:hover:before {
+    content:'';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("volunteer.jpg") no-repeat center;
+    background-size: cover;
+    
+}
+
+
+
+#lead:hover:before {
+    content:'';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("mentor.jpg") no-repeat center;
+    background-size: cover;
+    
+}
 
 
