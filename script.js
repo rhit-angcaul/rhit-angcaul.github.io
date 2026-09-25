@@ -1,5 +1,5 @@
 
-let resumeBtn = document.getElementsByName("resumeBtn")
+let resumeBtn = document.querySelector('[name="resumeBtn"]')
 let portBtn = document.getElementsByName("portBtn")
 let handBtn = document.getElementsByName("handBtn")
 let linkBtn = document.getElementsByName("linkBtn")
