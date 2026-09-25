@@ -6,7 +6,12 @@
     margin-right:50px;
     width:40%;
     float:right;
+    border: 5px solid burlywood;
 
+}
+
+img{
+    border: 5px solid burlywood;
 }
 
 #front_page_text{
@@ -18,20 +23,34 @@
 
 
 
-body section nav div{
-    color:white;
+.button{
+    /* color:white; */
+    background-color:burlywood;
+    font-family: Georgia, Georgia, 'Times New Roman', Times, serif;
     font-size:50px;
-    padding-bottom: 15px;
-    padding-left:15px;
+  
+    padding:15px;
+    margin-top:2%;
+    margin-left:150px;
 }
 
-a:link{
+#portfolio.button{
+    font-size: 20px;
+
+
+}
+
+.button:hover{
+    background-color:rgb(170, 146, 114);
+}
+
+/* a:link{
     color:yellow;
 }
 
 a:visited{
     color:orange;
-}
+} */
 
 .date{
     
@@ -61,9 +80,9 @@ a:visited{
 }
 
 
-.link{
-    padding-left:2500px;
-}
+/* .link{
+    padding-left:250px;
+} */
 
 
 .resumeContain section{
@@ -143,7 +162,10 @@ a:visited{
     bottom: 0;
     background: url("mentor.jpg") no-repeat center;
     background-size: cover;
-    
+  
+
 }
+
+
 
 
