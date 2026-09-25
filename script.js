@@ -2,7 +2,7 @@
 window.addEventListener("DOMContentLoaded", domLoaded);
 
 
-function DOMcontentLoaded(){
+function DOMContentLoaded(){
     let resumeBtn = document.querySelector('[name="resumeBtn"]')
     let portBtn = document.querySelector('[name="portBtn"]')
     let handBtn = document.querySelector('[name="handBtn"]')
@@ -13,5 +13,15 @@ function DOMcontentLoaded(){
 
     resumeBtn.addEventListener("click", function(){
     window.location.href="https://rhit-angcaul.github.io/resume.html"
+    })
+
+    portBtn.addEventListener("click", function(){
+    window.location.href="https://rhit-angcaul.github.io/portfolio.html"
+    })
+    handBtn.addEventListener("click", function(){
+    window.location.href="https://app.joinhandshake.com/profiles/caulfias"
+    })
+    linkBtn.addEventListener("click", function(){
+    window.location.href="https://www.linkedin.com/in/angela-caulfield-a092073aa/"
     })
 }
