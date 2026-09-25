@@ -2,7 +2,7 @@
 window.addEventListener("DOMContentLoaded", domLoaded);
 
 
-function DOMContentLoaded(){
+function domLoaded(){
     let resumeBtn = document.querySelector('[name="resumeBtn"]')
     let portBtn = document.querySelector('[name="portBtn"]')
     let handBtn = document.querySelector('[name="handBtn"]')
